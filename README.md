@@ -115,7 +115,7 @@ Feel free to fork this repository, make improvements, and submit pull requests!
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-Built by [ayeshpemal]
+Built by [ayeshpemal](https://github.com/ayeshpemal/)
 With assistance from Grok, created by xAI.
 
 
