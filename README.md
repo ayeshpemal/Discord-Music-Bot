@@ -118,5 +118,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Built by [ayeshpemal](https://github.com/ayeshpemal/)
 With assistance from Grok, created by xAI.
 
+## Legal Notice
+This bot is for educational and personal use only. Streaming copyrighted music from YouTube may violate YouTube’s Terms of Service and copyright laws. Use at your own risk, and ensure you have proper permissions for any music played.
+
 
 
