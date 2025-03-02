@@ -36,7 +36,7 @@ pip install discord.py yt-dlp pynacl
 ```
 
 ### 3. Obtain a Discord Bot Token
-- Go to the Discord Developer Portal.
+- Go to the Discord Developer Portal. [Discord Developer Portal](https://discord.com/developers)
 
 - Click "New Application," name it (e.g., "MusicBot"), and click "Create."
 
