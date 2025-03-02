@@ -68,27 +68,18 @@ If successful, you’ll see "Logged in as [BotName]" in the terminal.
 
 ## Usage
 Join a voice channel in your Discord server and use these commands:
-| Command | Description | Example |
-| --------- | ------------ | --------- |
-| !play [URL/term] | Plays a song or playlist from a URL or term | !play https://youtube.com/... |
-
-| !play [number] | Plays a song from the last search results | !play 2 |
-
-| !search [keyword] | Searches YouTube and shows top 5 results | !search Billie Eilish |
-
-| !pause | Pauses the current song | !pause |
-
-| !resume | Resumes the paused song | !resume |
-
-| !skip | Skips the current song | !skip |
-
-| !stop | Stops playback and clears the queue | !stop |
-
-| !queue | Shows the current queue | !queue |
-
-| !volume [0-100] | Sets the volume (0-100%) | !volume 75 |
-
-| !shuffle | Shuffles the current queue | !shuffle |
+| Command           | Description                                | Example                     |
+|-------------------|--------------------------------------------|-----------------------------|
+| !play [URL/term]  | Plays a song or playlist from a URL or term| !play https://youtube.com/... |
+| !play [number]    | Plays a song from the last search results  | !play 2                     |
+| !search [keyword] | Searches YouTube and shows top 5 results   | !search Billie Eilish       |
+| !pause            | Pauses the current song                    | !pause                      |
+| !resume           | Resumes the paused song                    | !resume                     |
+| !skip             | Skips the current song                     | !skip                       |
+| !stop             | Stops playback and clears the queue        | !stop                       |
+| !queue            | Shows the current queue                    | !queue                      |
+| !volume [0-100]   | Sets the volume (0-100%)                   | !volume 75                  |
+| !shuffle          | Shuffles the current queue                 | !shuffle                    |
 
 ## Example Workflow
 ### Search for a song:
