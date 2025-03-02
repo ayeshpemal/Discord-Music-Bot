@@ -44,6 +44,8 @@ Go to the "Bot" tab, click "Add Bot," then "Yes, do it!"
 
 Under "Token," click "Copy" to save your bot token (keep it private).
 
+Make sure to set bot private (Turn off the tick on public bot)
+
 Enable "Privileged Gateway Intents" (Presence, Server Members, Message Content).
 
 Go to "OAuth2 > URL Generator," select bot scope, and permissions: Connect and Speak. Copy the URL, open it in a browser, and invite the bot to your server.
@@ -63,4 +65,111 @@ python musicbot.py
 ```
 
 If successful, you’ll see "Logged in as [BotName]" in the terminal.
+
+## Usage
+Join a voice channel in your Discord server and use these commands:
+Command
+
+Description
+
+Example
+
+!play [URL/term]
+
+Plays a song or playlist from a URL or term
+
+!play https://youtube.com/...
+
+!play [number]
+
+Plays a song from the last search results
+
+!play 2
+
+!search [keyword]
+
+Searches YouTube and shows top 5 results
+
+!search Billie Eilish
+
+!pause
+
+Pauses the current song
+
+!pause
+
+!resume
+
+Resumes the paused song
+
+!resume
+
+!skip
+
+Skips the current song
+
+!skip
+
+!stop
+
+Stops playback and clears the queue
+
+!stop
+
+!queue
+
+Shows the current queue
+
+!queue
+
+!volume [0-100]
+
+Sets the volume (0-100%)
+
+!volume 75
+
+!shuffle
+
+Shuffles the current queue
+
+!shuffle
+
+## Example Workflow
+### Search for a song:
+```bash
+!search Imagine Dragons
+# Bot lists 5 results
+```
+
+### Play a result:
+```bash
+!play 3  # Plays the third result
+```
+
+### Add a playlist:
+```bash
+!play https://www.youtube.com/playlist?list=PL4o29bBf0I0
+```
+
+### Shuffle the queue:
+```bash
+!shuffle
+```
+
+## Troubleshooting
+Bot Doesn’t Join Voice: Ensure pynacl and FFmpeg are installed, and the bot has Connect/Speak permissions.
+
+Video Unavailable: The bot skips unavailable videos in playlists; check the URL or try another.
+
+No Sound: Verify FFmpeg is in your PATH (ffmpeg -version).
+
+## Contributing
+Feel free to fork this repository, make improvements, and submit pull requests!
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+Built with  by [ayeshpemal]
+With assistance from Grok, created by xAI.
+
+
 
