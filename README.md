@@ -36,27 +36,27 @@ pip install discord.py yt-dlp pynacl
 ```
 
 ### 3. Obtain a Discord Bot Token
-Go to the Discord Developer Portal.
+- Go to the Discord Developer Portal.
 
-Click "New Application," name it (e.g., "MusicBot"), and click "Create."
+- Click "New Application," name it (e.g., "MusicBot"), and click "Create."
 
-Go to the "Bot" tab, click "Add Bot," then "Yes, do it!"
+- Go to the "Bot" tab, click "Add Bot," then "Yes, do it!"
 
-Under "Token," click "Copy" to save your bot token (keep it private).
+- Under "Token," click "Copy" to save your bot token (keep it private).
 
-Make sure to set bot private (Turn off the tick on public bot)
+- Make sure to set bot private (Turn off the tick on public bot)
 
-Enable "Privileged Gateway Intents" (Presence, Server Members, Message Content).
+- Enable "Privileged Gateway Intents" (Presence, Server Members, Message Content).
 
-Go to "OAuth2 > URL Generator," select bot scope, and permissions: Connect and Speak. Copy the URL, open it in a browser, and invite the bot to your server.
+- Go to "OAuth2 > URL Generator," select bot scope, and permissions: Connect and Speak. Copy the URL, open it in a browser, and invite the bot to your server.
 
 ### 4. Configure the Bot
-Open musicbot.py in a text editor.
+- Open musicbot.py in a text editor.
 
-Replace 'YOUR_BOT_TOKEN_HERE' with your bot token from step 3:
+- Replace 'YOUR_BOT_TOKEN_HERE' with your bot token from step 3:
 python
 
-bot.run('YOUR_ACTUAL_TOKEN')
+- bot.run('YOUR_ACTUAL_TOKEN')
 
 ### 5. Run the Bot
 Run the bot from the command line:
@@ -68,17 +68,9 @@ If successful, you’ll see "Logged in as [BotName]" in the terminal.
 
 ## Usage
 Join a voice channel in your Discord server and use these commands:
-Command
-
-Description
-
-Example
-
-!play [URL/term]
-
-Plays a song or playlist from a URL or term
-
-!play https://youtube.com/...
+| Command | Description | Example |
+|---------|------------|---------|
+| !play [URL/term] | Plays a song or playlist from a URL or term | !play https://youtube.com/... |
 
 !play [number]
 
@@ -168,7 +160,7 @@ Feel free to fork this repository, make improvements, and submit pull requests!
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-Built with  by [ayeshpemal]
+Built by [ayeshpemal]
 With assistance from Grok, created by xAI.
 
 
