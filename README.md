@@ -27,14 +27,15 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/ayeshpemal/Discord-Music-Bot.git
 cd [Discord-Music-Bot]
+```
 
-2. Install Python Dependencies
+### 2. Install Python Dependencies
 Install the required Python libraries using pip:
-bash
-
+```bash
 pip install discord.py yt-dlp pynacl
+```
 
-3. Obtain a Discord Bot Token
+### 3. Obtain a Discord Bot Token
 Go to the Discord Developer Portal.
 
 Click "New Application," name it (e.g., "MusicBot"), and click "Create."
@@ -47,7 +48,7 @@ Enable "Privileged Gateway Intents" (Presence, Server Members, Message Content).
 
 Go to "OAuth2 > URL Generator," select bot scope, and permissions: Connect and Speak. Copy the URL, open it in a browser, and invite the bot to your server.
 
-4. Configure the Bot
+### 4. Configure the Bot
 Open musicbot.py in a text editor.
 
 Replace 'YOUR_BOT_TOKEN_HERE' with your bot token from step 3:
@@ -55,11 +56,11 @@ python
 
 bot.run('YOUR_ACTUAL_TOKEN')
 
-5. Run the Bot
+### 5. Run the Bot
 Run the bot from the command line:
-bash
-
+```bash
 python musicbot.py
+```
 
 If successful, you’ll see "Logged in as [BotName]" in the terminal.
 
